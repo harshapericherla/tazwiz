@@ -7,6 +7,7 @@ import { connect } from 'react-redux';
 import * as actions from '../actions';
 import {BrowserRouter,Route} from 'react-router-dom';
 import Error from './Error';
+import '../css/app.css';
 
 class App extends Component {
     render() {
