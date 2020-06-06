@@ -10,7 +10,7 @@ const loginUser = async (req,res) => {
         user = await User.find({email:user.email,password:user.password});
     }catch(error)
     {
-       res.status(500).json(error);
+       res.status(500).json({message:'An error at server occured.'});
        return;   
     }
 

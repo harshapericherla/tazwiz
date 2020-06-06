@@ -46,15 +46,15 @@ class Login extends Component {
                      SIGN IN
                </div>
               <div className="input-field">
-                <input type="email" name="email" id="email-input" value={this.state.email} onChange={this.inputChanged} class="validate" required/>
+                <input type="email" name="email" id="email-input" value={this.state.email} onChange={this.inputChanged} className="validate" required/>
                 <label htmlFor="email-input">Enter your email</label>
               </div>
               <div className="input-field">
-                  <input type="password" name="password" id="pass-input" value={this.state.password} onChange={this.inputChanged} class="validate" required/>
+                  <input type="password" name="password" id="pass-input" value={this.state.password} onChange={this.inputChanged} className="validate" required/>
                   <label htmlFor="pass-input">Enter your password</label>
               </div>
               <div className="submit">
-                    <a className="waves-effect waves-light btn" onClick={this.submitForm}>
+                    <a className="btn" onClick={this.submitForm}>
                         Login
                     </a>
               </div>
