@@ -1,0 +1,17 @@
+.product-card
+{
+    box-shadow: 0 0 5px #999;
+    padding: 20px;
+    width: 330px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.card-body
+{
+    margin-top: 20px;
+}
+.card-body *
+{
+    padding-top: 5px;
+}
